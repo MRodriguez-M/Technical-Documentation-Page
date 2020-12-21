@@ -8,3 +8,8 @@
 #main-doc {
     margin-left: 25%;
 }
+@media (max-height: 500px) {
+    #main-doc {
+        font-size: 10px;
+    }
+}
