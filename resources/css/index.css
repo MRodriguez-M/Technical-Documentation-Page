@@ -8,6 +8,13 @@
 #main-doc {
     margin-left: 25%;
 }
+
+header {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
 @media (max-height: 500px) {
     #main-doc {
         font-size: 10px;
