@@ -15,6 +15,10 @@ header {
     font-weight: bold;
 }
 
+p, li, a {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
 @media (max-height: 500px) {
     #main-doc {
         font-size: 10px;
