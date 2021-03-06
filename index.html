@@ -23,46 +23,60 @@
                 <p>Indentation refers to the spaces at the beginning of a code line.</p>
                 <p>Where in other programming languages the indentation in code is for readability only, the indentation in Python is very important.</p>
                 <p>Python uses indentation to indicate a block of code.</p>
-                <code>
-                    if 5 > 2:
-                        print("Five is greater than two!")
-                </code>
+                <pre>
+                    <code>
+    if 5 > 2:
+        print("Five is greater than two!")
+                    </code>
+                </pre>
                 <p>Comments start with a #, and Python will render the rest of the line as a comment:</p>
-                <code>
-                    #This is a comment.
-                    print("Hello, World!")
-                </code>
+                <pre>
+                    <code>
+    #This is a comment.
+    print("Hello, World!")
+                    </code>
+                </pre>
             </section>
             <section class="main-section" id="Variables">
                 <header>Variables</header>
                 <p>A variable is created the moment you first assign a value to it.</p>
-                <code>
-                    x = 5
-                    y = "John"
-                </code>
+                <pre>
+                    <code>
+    x = 5
+    y = "John"
+                    </code>
+                </pre>
                 <p>Variables do not need to be declared with any particular type, and can even change type after they have been set.</p>
-                <code>
-                    x = 4       # x is of type int
-                    x = "Sally" # x is now of type str
-                </code>
+                <pre>
+                    <code>
+    x = 4       # x is of type int
+    x = "Sally" # x is now of type str
+                    </code>
+                </pre>
                 <p>If you want to specify the data type of a variable, this can be done with casting.</p>
-                <code>
-                    x = str(3)    # x will be '3'
-                    y = int(3)    # y will be 3
-                    z = float(3)  # z will be 3.0
-                </code>
+                <pre>
+                    <code>
+    x = str(3)    # x will be '3'
+    y = int(3)    # y will be 3
+    z = float(3)  # z will be 3.0
+                    </code>
+                </pre>
                 <p>String variables can be declared either by using single or double quotes:</p>
-                <code>
-                    x = "John"
-                    # is the same as
-                    x = 'John'
-                </code>
+                <pre>
+                    <code>
+    x = "John"
+    # is the same as
+    x = 'John'
+                    </code>
+                </pre>
                 <p>Variable names are case-sensitive.</p>
-                <code>
-                    a = 4
-                    A = "Sally"
-                    #A will not overwrite a
-                </code>
+                <pre>
+                    <code>
+    a = 4
+    A = "Sally"
+    #A will not overwrite a
+                    </code>
+                </pre>
             </section>
             <section class="main-section" id="Data_Types">
                 <header>Data Types</header>
@@ -77,17 +91,21 @@
                     <li>Binary Types: bytes, bytearray, memoryview</li>
                 </ul>
                 <p>You can get the data type of any object by using the type() function:</p>
-                <code>
-                    x = 5
-                    print(type(x))
-                </code>
+                <pre>
+                    <code>
+    x = 5
+    print(type(x))
+                    </code>
+                </pre>
                 <p>In Python, the data type is set when you assign a value to a variable.</p>
                 <p>If you want to specify the data type, you can use constructor functions:</p>
-                <code>
-                    x = str("Hello World")
-                    x = int(20)
-                    x = float(20.5)
-                </code>
+                <pre>
+                    <code>
+    x = str("Hello World")
+    x = int(20)
+    x = float(20.5)
+                    </code>
+                </pre>
             </section>
             <section class="main-section" id="References">
                 <header>References</header>
