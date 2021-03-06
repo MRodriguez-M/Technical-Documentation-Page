@@ -18,6 +18,10 @@
     margin-left: 20%;
 }
 
+.main-section {
+    padding: 20px 0px;
+}
+
 header {
     font-family: Georgia, 'Times New Roman', serif;
     font-size: 30px;
@@ -26,6 +30,11 @@ header {
 
 p, li {
     font-family: Helvetica, Arial, sans-serif;
+    color: #646464;
+}
+
+code {
+    color: #FFD43B;
 }
 
 @media (max-height: 500px) {
