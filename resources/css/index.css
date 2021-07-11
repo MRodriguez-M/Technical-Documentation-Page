@@ -33,8 +33,14 @@ p, li {
     color: #646464;
 }
 
-code {
+code, pre {
     color: #FFD43B;
+    width: 90%;
+    background-color: #4B8BBE;
+}
+
+a {
+    text-decoration: none;
 }
 
 @media (max-height: 500px) {
