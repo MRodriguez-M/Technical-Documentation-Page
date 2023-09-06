@@ -17,6 +17,7 @@
     padding-left: 8%;
     padding-top: 4%;
     padding-bottom: 4%;
+    color: #306998
 }
 
 #main-doc {
@@ -52,5 +53,15 @@ a {
 @media (max-height: 500px) {
     #main-doc {
         font-size: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    #navbar {
+        display: none;
+    }
+    #main-doc {
+        width: 100%;
+        margin-left: 0;
     }
 }
